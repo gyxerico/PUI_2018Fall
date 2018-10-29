@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blackberry Cake - BunBun Bake Shop</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+    <div class="wrapper-cakes">
+        <div class="header-colored">
+            <div class="navbar-colored">
+                <a href="index.html" class="nav-logo-white"><img src="images/logo-white.svg"/></a>
+                <ul>
+                    <li><a href="cart.html">Cart</a></li>
+                    <li><a href="cakes.html">Cakes</a></li>
+                    <li><a href="index.html">Home</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="product-details">
+        <img id="product-image" class="p-image" src="images/blackberry.png" alt="image of blackberry cake">
+        <div class="p-description">
+            <div id="product-title" class="p-description-title">Blackberry</div>
+            <div class="p-description-price">$5.99/each</div>
+            <div class="p-description-text">Bunbun Blackberry Cake is our popular classic product for many years. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+        </div>
+        <div class="pd-add-to-cart">
+            <div class="flavor">Flavor:</div>
+            <div class="flavor-select">
+                <select id="flavor-select" onchange="changeFlavor()">
+                    <option value="none">None</option>
+                    <option value="sugarmilk">Sugar-milk</option>
+                    <option value="vanillamilk">Vanilla-milk</option>
+                    <option value="doublechocolate">Double-chocolate</option>
+                </select>
+            </div>
+            <div class="quantity">Quantity:</div>
+            <div class="quantity-select">
+                <select id="quantity-select" onchange="changeQuantity()">
+                    <option value="1">1</option>
+                    <option value="3">3</option>
+                    <option value="6">6</option>
+                    <option value="12">12</option>
+                </select>
+            </div>
+            <div id="current-price" class="current-price">$5.99</div>
+            <a href="cart.html"><button class="add-to-cart-button" onclick="addToCart()">Add to Cart</button></a>
+
+        </div>
+    </div>
+
+    <div class="footer">
+
+        <div class="footer-body">
+            <div class="footer-left">
+                <a href="index.html" class="footer-logo"><img src="images/footer-logo.svg" alt="footer logo, white"/></a>
+                <div class="brand-description"><span>Bunbun Bake Shop is a Pittsburgh local bakery shop founded in 2018. We deliver healthy delicious cakes right to your home.</span></div>
+            </div>
+            <div class="footer-right">
+                <div class="footer-contact">5000 Forbes Ave.<br>
+                    Pittsburgh, PA<br>
+                    15213<br>
+                    <br>
+                    <br>
+                    contact@bunbunbake.com<br>
+                    (123) 456-7890</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
