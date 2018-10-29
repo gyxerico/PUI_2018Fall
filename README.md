@@ -9,4 +9,7 @@ This repo contains all the coursework for Programming Usable Interfaces, includi
 This folder contains all files for week 4 session.
 
 ## 2.homework_5
-This folder contains all files for homework 5 (HTML & CSS). The site can also be previewed at http://bunbunbakeshop.surge.sh
+This folder contains all files for homework 5 (HTML & CSS). 
+
+## 3.assignment_6 
+This folder contains all files for assignment 6 (HTML & CSS & JavaScript & PDF write-up). The site can also be previewed at http://bunbunbakeshop.surge.sh
