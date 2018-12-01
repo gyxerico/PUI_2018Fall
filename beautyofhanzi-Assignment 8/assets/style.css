@@ -1,0 +1,863 @@
+html, body {
+    background: black;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+input, button, submit { border:none; }
+
+#index {
+    overflow: hidden;
+}
+
+.background-container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    grid-column-gap: 5px;
+    overflow: hidden;
+}
+
+.text-col {
+    display: block;
+    font-family: source-han-serif-sc, serif;
+    font-weight: 600;
+    font-size: 120px;
+    color: #4A4A4A;
+    line-height: 130px;
+}
+
+@keyframes ani1 {
+    from {margin-top: -20px;}
+    to {margin-top: -9500px;}
+}
+
+@keyframes ani2 {
+    from {margin-top: -50px;}
+    to {margin-top: -9500px;}
+}
+
+@keyframes ani3 {
+    from {margin-top: -80px;}
+    to {margin-top: -9500px;}
+}
+
+@keyframes ani4 {
+    from {margin-top: -10px;}
+    to {margin-top: -9500px;}
+}
+
+@keyframes ani5 {
+    from {margin-top: -45px;}
+    to {margin-top: -9500px;}
+}
+
+@keyframes ani6 {
+    from {margin-top: -15px;}
+    to {margin-top: -9500px;}
+}
+
+@keyframes ani7 {
+    from {margin-top: -25px;}
+    to {margin-top: -9500px;}
+}
+
+@keyframes ani8 {
+    from {margin-top: -5px;}
+    to {margin-top: -9500px;}
+}
+
+@keyframes ani9 {
+    from {margin-top: 0px;}
+    to {margin-top: -9500px;}
+}
+
+@keyframes ani10 {
+    from {margin-top: -10px;}
+    to {margin-top: -9500px;}
+}
+
+@keyframes ani11 {
+    from {margin-top: -40px;}
+    to {margin-top: -9500px;}
+}
+
+@keyframes ani12 {
+    from {margin-top: -80px;}
+    to {margin-top: -9500px;}
+}
+
+@keyframes ani13 {
+    from {margin-top: -60px;}
+    to {margin-top: -9500px;}
+}
+
+
+#text-col-1 {
+    animation-name: ani1;
+    animation-duration: 900s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#text-col-2 {
+    animation-name: ani2;
+    animation-duration: 900s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#text-col-3 {
+    animation-name: ani3;
+    animation-duration: 900s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#text-col-4 {
+    animation-name: ani4;
+    animation-duration: 900s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+#text-col-5 {
+    animation-name: ani5;
+    animation-duration: 900s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#text-col-6 {
+    animation-name: ani6;
+    animation-duration: 900s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#text-col-7 {
+    animation-name: ani7;
+    animation-duration: 900s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#text-col-8 {
+    animation-name: ani8;
+    animation-duration: 900s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#text-col-9 {
+    animation-name: ani9;
+    animation-duration: 900s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#text-col-10 {
+    animation-name: ani10;
+    animation-duration: 900s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#text-col-11 {
+    animation-name: ani11;
+    animation-duration: 900s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#text-col-12 {
+    animation-name: ani12;
+    animation-duration: 900s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#text-col-13 {
+    animation-name: ani13;
+    animation-duration: 900s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.hero {
+    background-color: white;
+    position: absolute;
+    left: 8%;
+    bottom: 10%;
+    padding: 40px 80px 40px 40px
+}
+
+.site-title {
+    font-family: source-han-serif-sc, serif;
+    font-weight: 700;
+    line-height: 40px;
+    font-size: 30px;
+    color: #000000;
+}
+
+.explore {
+    background-color: black;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    margin-top: 50px;
+    font-family: source-han-serif-sc, serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+}
+
+.explore:after {
+    content: url("img/arrow.svg");
+    font-size: 13px;
+    color: #ffffff;
+    float: right;
+    margin-top: 3px;
+    margin-left: 20px;
+}
+
+.explore:hover:after {
+    animation-name: arrow;
+    animation-duration: 600ms;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes arrow {
+    0% {margin-left: 20px;}
+    50% {margin-left: 30px;}
+    100% {margin-left: 20px;}
+}
+
+.attribution {
+    position: absolute;
+    right: 3%;
+    bottom: 5%;
+    font-size: 12px;
+    font-family: source-han-serif-sc, serif;
+    font-weight: 700;
+    color: #4a4a4a;
+}
+
+.hanzi-title {
+    display: flex;
+    font-family: source-han-serif-sc, serif;
+    font-weight: 700;
+    line-height: 24px;
+    font-size: 20px;
+    color: white;
+    margin-top: 5%;
+    margin-left: 5%;
+    float: left;
+}
+
+.hanzi-title a{
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    height: 15%;
+}
+
+.about-button {
+    font-family: source-han-serif-sc, serif;
+    font-weight: 700;
+    line-height: 24px;
+    font-size: 16px;
+    color: white;
+    margin-top: 6%;
+    margin-right: 6%;
+    float: right;
+    background-color: black;
+}
+
+.about-button a{
+    text-decoration: none;
+    color: white;
+}
+
+.about-button:hover {
+    border-bottom: 1px solid white;
+}
+
+.text-container {
+    margin-top: 5%;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.character {
+    width: 100%;
+    display: block;
+    font-size: 100px;
+    color: #4a4a4a;
+    font-family: source-han-serif-sc, serif;
+    font-weight: 700;
+    line-height: 110px;
+}
+
+.character:hover {
+    color: white;
+}
+
+.modal-background {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /*opacity: 0;*/
+    /*visibility: hidden;*/
+    transform: scale(1.1);
+    transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+}
+
+.modal-content {
+    display: grid;
+    grid-template-columns: 240px 300px;
+    grid-template-rows: 120px 120px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 30px;
+}
+
+.grid-container {
+    align-content: center;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+.tian {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+.hanzi {
+    font-family: source-han-serif-sc, serif;
+    font-weight: 700;
+    font-size: 148px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 240px;
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*left: 50%;*/
+    /*transform: translate(-50%, -50%);*/
+}
+
+.modal-left {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    justify-self: center;
+    background-size: cover;
+    background-image: url("img/tian.svg");
+    width: 100%;
+    text-align: center;
+}
+
+.modal-upright {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.modal-upright p{
+    font-family: source-han-serif-sc, serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+    letter-spacing: 0;
+    margin-left: 20px;
+}
+
+.modal-upright span{
+    font-family: source-han-serif-sc, serif;
+    font-weight: 700;
+    font-size: 12px;
+    color: #9b9b9b;
+    letter-spacing: 0;
+    margin-left: 5px;
+}
+
+.modal-bottomright {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.modal-bottomright p{
+    font-family: source-han-serif-sc, serif;
+    font-weight: 700;
+    font-size: 12px;
+    color: #000000;
+    letter-spacing: 0;
+    margin-left: 20px;
+}
+
+.modal-bottomright span{
+    color: #9b9b9b;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 20px;
+}
+
+.about-content {
+    width: 540px;
+    height: 240px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 40px;
+}
+
+.about-content p{
+    margin-top: 60px;
+    font-family: source-han-serif-sc, serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    letter-spacing: 0.55px;
+}
+
+.about-content span{
+    font-weight: 700;
+}
+
+.about-content a{
+    color: inherit;
+}
+
+#attribution {
+    margin-top: 100px;
+    color: #9b9b9b;
+}
+
+@media screen and (max-width:768px){
+    html, body {
+        background: black;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    #index {
+        overflow: hidden;
+    }
+
+    .background-container {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+        grid-column-gap: 5px;
+        overflow: hidden;
+    }
+
+
+    .text-col {
+        display: block;
+        font-family: source-han-serif-sc, serif;
+        font-weight: 600;
+        font-size: 60px;
+        color: #4A4A4A;
+        line-height: 65px;
+
+    }
+
+    @keyframes ani1 {
+        from {margin-top: -20px;}
+        to {margin-top: -9500px;}
+    }
+
+    @keyframes ani2 {
+        from {margin-top: -50px;}
+        to {margin-top: -9500px;}
+    }
+
+    @keyframes ani3 {
+        from {margin-top: -80px;}
+        to {margin-top: -9500px;}
+    }
+
+    @keyframes ani4 {
+        from {margin-top: -10px;}
+        to {margin-top: -9500px;}
+    }
+
+    @keyframes ani5 {
+        from {margin-top: -45px;}
+        to {margin-top: -9500px;}
+    }
+
+    @keyframes ani6 {
+        from {margin-top: -15px;}
+        to {margin-top: -9500px;}
+    }
+
+    @keyframes ani7 {
+        from {margin-top: -25px;}
+        to {margin-top: -9500px;}
+    }
+
+    @keyframes ani8 {
+        from {margin-top: -5px;}
+        to {margin-top: -9500px;}
+    }
+
+    @keyframes ani9 {
+        from {margin-top: 0px;}
+        to {margin-top: -9500px;}
+    }
+
+    @keyframes ani10 {
+        from {margin-top: -10px;}
+        to {margin-top: -9500px;}
+    }
+
+    @keyframes ani11 {
+        from {margin-top: -40px;}
+        to {margin-top: -9500px;}
+    }
+
+    @keyframes ani12 {
+        from {margin-top: -80px;}
+        to {margin-top: -9500px;}
+    }
+
+    @keyframes ani13 {
+        from {margin-top: -60px;}
+        to {margin-top: -9500px;}
+    }
+
+
+    #text-col-1 {
+        animation-name: ani1;
+        animation-duration: 900s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+    #text-col-2 {
+        animation-name: ani2;
+        animation-duration: 900s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+    #text-col-3 {
+        animation-name: ani3;
+        animation-duration: 900s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+    #text-col-4 {
+        animation-name: ani4;
+        animation-duration: 900s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+
+    #text-col-5 {
+        animation-name: ani5;
+        animation-duration: 900s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+    #text-col-6 {
+        animation-name: ani6;
+        animation-duration: 900s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+    #text-col-7 {
+        animation-name: ani7;
+        animation-duration: 900s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+    #text-col-8 {
+        animation-name: ani8;
+        animation-duration: 900s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+    #text-col-9 {
+        animation-name: ani9;
+        animation-duration: 900s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+    #text-col-10 {
+        animation-name: ani10;
+        animation-duration: 900s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+    #text-col-11 {
+        animation-name: ani11;
+        animation-duration: 900s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+    #text-col-12 {
+        animation-name: ani12;
+        animation-duration: 900s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+    #text-col-13 {
+        animation-name: ani13;
+        animation-duration: 900s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+    .hero {
+        margin: auto;
+        background-color: white;
+        position: absolute;
+        padding: 30px;
+        left: 8%;
+        bottom: 8%;
+    }
+
+    .site-title {
+        font-family: source-han-serif-sc, serif;
+        font-weight: 700;
+        line-height: 26px;
+        font-size: 20px;
+        color: #000000;
+    }
+
+    .explore {
+        background-color: black;
+        border: none;
+        padding: 8px 15px 8px 15px;
+        margin-top: 30px;
+        font-family: source-han-serif-sc, serif;
+        font-size: 16px;
+        font-weight: 700;
+        color: white;
+    }
+
+    .explore:after {
+        content: url("img/arrow.svg");
+        font-size: 13px;
+        color: #ffffff;
+        float: right;
+        margin-top: 3px;
+        margin-left: 20px;
+    }
+
+    .attribution {
+        position: absolute;
+        left: 16%;
+        bottom: 4%;
+        font-size: 12px;
+        font-family: source-han-serif-sc, serif;
+        font-weight: 700;
+        color: #4a4a4a;
+    }
+
+    .hanzi-title {
+        display: flex;
+        font-family: source-han-serif-sc, serif;
+        font-weight: 700;
+        line-height: 20px;
+        font-size: 16px;
+        color: white;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+
+    .header {
+        height: 10%;
+    }
+
+    .about {
+        font-family: source-han-serif-sc, serif;
+        font-weight: 700;
+        line-height: 20px;
+        font-size: 16px;
+        color: white;
+        margin-top: 7%;
+        margin-right: 5%;
+        float: right;
+    }
+
+    .text-container {
+        margin-top: 4%;
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+    }
+
+    .character {
+        width: 100%;
+        display: block;
+        font-size: 60px;
+        color: #4a4a4a;
+        font-family: source-han-serif-sc, serif;
+        font-weight: 700;
+        line-height: 64px;
+    }
+
+    .modal-content {
+        display: grid;
+        grid-template-columns: 100px 200px;
+        grid-template-rows: 50px 50px;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        padding: 15px;
+    }
+
+    .modal-left {
+        grid-column: 1/2;
+        grid-row: 1/3;
+        justify-self: center;
+        background-size: cover;
+        background-image: url("img/tian.svg");
+        width: 100%;
+        text-align: center;
+    }
+
+    .modal-upright {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    .modal-upright p{
+        font-family: source-han-serif-sc, serif;
+        font-weight: 700;
+        font-size: 18px;
+        color: #000000;
+        letter-spacing: 0;
+        margin-left: 20px;
+    }
+
+    .modal-upright span{
+        font-family: source-han-serif-sc, serif;
+        font-weight: 700;
+        font-size: 10px;
+        color: #9b9b9b;
+        letter-spacing: 0;
+        margin-left: 5px;
+    }
+
+    .modal-bottomright {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    .modal-bottomright p{
+        font-family: source-han-serif-sc, serif;
+        font-weight: 700;
+        font-size: 10px;
+        color: #000000;
+        letter-spacing: 0;
+        margin-left: 20px;
+    }
+
+    .modal-bottomright span{
+        color: #9b9b9b;
+    }
+
+    .tian {
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+    }
+
+    .hanzi {
+        font-family: source-han-serif-sc, serif;
+        font-weight: 700;
+        font-size: 61.8px;
+        color: #000000;
+        letter-spacing: 0;
+        line-height: 100px;
+        /*position: absolute;*/
+        /*top: 50%;*/
+        /*left: 50%;*/
+        /*transform: translate(-50%, -50%);*/
+    }
+
+    .about-content {
+        width: 300px;
+        height: 180px;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        padding: 30px;
+    }
+
+    .about-content p{
+        margin-top: 40px;
+        font-family: source-han-serif-sc, serif;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 16px;
+        color: #000000;
+        letter-spacing: 0.55px;
+    }
+
+    .about-content span{
+        font-weight: 700;
+    }
+
+    .about-content a{
+        color: inherit;
+    }
+
+    .character:hover {
+        color: white;
+    }
+
+    #attribution {
+        margin-top: 60px;
+        color: #9b9b9b;
+    }
+
+    .close {
+        position: absolute;
+        top: 12px;
+        right: 12px;
+        font-size: 16px;
+    }
+}
